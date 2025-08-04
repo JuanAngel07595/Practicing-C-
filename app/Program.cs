@@ -5,11 +5,14 @@ class Program : Information, Interface
 
 
 
+
+
     //override solo cuando voy a sobre escribir un metodo de clase
     /*  public override void Ojoconeso()
         {
             Console.WriteLine("Epale mijo");
         }
+
     */
 
     //asi cuando es metodo abstracto de interfaz
@@ -23,8 +26,8 @@ class Program : Information, Interface
 
 
 
-
-
+        string oe = "oe";
+        Console.WriteLine(oe);
 
         Console.WriteLine("Hello, World!, Say 'Hey'");
 
